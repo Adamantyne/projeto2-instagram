@@ -1,0 +1,14 @@
+.letra-3:hover, .top p:hover, .caixa-stories p:hover, .icones:hover, .bandeira:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.informacoes p:hover,.bot strong:hover, .perfil-G:hover, .perfil-M:hover, .perfil-P:hover, .seta:hover, .logo img:hover{
+    cursor: pointer;
+}
+.letra-1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+

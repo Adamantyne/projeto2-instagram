@@ -1,0 +1,44 @@
+@media (max-width : 935px){
+    .cabeçalho{
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 40px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .pagina{
+        justify-content: center;
+        width: 614px;
+    }
+    }
+@media (max-width : 614px){
+    .barramobile{
+        display:flex;
+    }
+    .barra-pesquisa{
+        display: none;
+    }
+    .icones-pc{
+        display: none;
+    }
+    .icone-mobile{
+        display: inline;
+    }
+    .logo{
+        width: 100%;
+    }
+    .barra-vertical{
+        display: none;
+    }
+    .pagina{
+        justify-content: center;
+    }
+    .cabeçalho{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    }    
