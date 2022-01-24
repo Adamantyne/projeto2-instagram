@@ -10,17 +10,7 @@ body{
     width: 22px;
     height: 22px;
 }
-.seta{
-    border-radius: 20px;
-    width: 32px;
-    height: 32px;
-    position: absolute;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
-    color: #FFFFFF;
-    left: 0px;
-    bottom: 43px;
-    transition: all 0.2s linear 0s;
-}
+
 video{
     width: 612px;
 }
@@ -157,6 +147,17 @@ header{
     width: 66px;
     height: 66px;
     border-radius: 33px;
+}
+.seta{
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.3));
+    color: #FFFFFF;
+    left: 0px;
+    bottom: 43px;
+    transition: all 0.2s linear 0s;
 }
 
 .publicacao{
