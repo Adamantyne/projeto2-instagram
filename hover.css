@@ -1,4 +1,4 @@
-.descricao strong:hover, .letra-3:hover, .top p:hover, .caixa-stories p:hover, .icones:hover, .bandeira:hover {
+.descricao strong:hover, .letra-3:hover, .nome:hover, .caixa-stories p:hover, .icones:hover, .bandeira:hover,.subperfil-info p:hover {
     cursor: pointer;
     opacity: 0.6;
 }
@@ -12,10 +12,27 @@
 }
 .seta:hover{
     background-color: rgb(205, 92, 92, 0.9);
-    border-radius: 20px;
     width: 33px;
     height: 33px;
 }
-
+.perfil-M:hover ~ .subperfil{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.subperfil:hover{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color:#FAFAFA;
+}
+.comentarios ion-icon:hover{
+    cursor: pointer;
+    background-color: rgb(238, 238, 38);
+}
+.comentarios p:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
 
 
